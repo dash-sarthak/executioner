@@ -1,0 +1,20 @@
+* Executioner
+A web app to execute python scripts in a controlled environment.
+Features:
+- [ ] 💻 Compiled python code
+- [ ] 💀 Catch potentially harmful code (to prevent code from breaking the system)
+- [ ] 📜 Structured logging for all
+- [ ] ⚡️ Fast.
+- [ ] 📊 Reports for your boss
+
+* Architecture
+** Backend
+Backend of the project uses Python with FastAPI and PostgreSQL
+Backend goals:
+- [ ] Use FastAPI for the API
+- [ ] Use async await as much as possiblt
+- [ ] Use postgres database using SQLAlchemy ORM
+- [ ] Create DB migrations using alembic
+
+** Frontend
+Frontend uses react
